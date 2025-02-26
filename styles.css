@@ -39,8 +39,8 @@ header h1 {
     margin-bottom: 10px;
 }
 .Vali img {
-    width: 300px !important;
-    height: auto !important;
+    width: 300px ;
+    height: auto ;
 }
 
 .skills, .projects, .wp, .mvp, .Repo, .Vali {
