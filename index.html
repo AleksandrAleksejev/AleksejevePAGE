@@ -5,28 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aleksejev Portfoolio</title>
     <link rel="stylesheet" href="styles.css">
-    
 </head>
 <body>
 <div class="container">
     
     <header>
         <h1>Aleksejev Portfoolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Avaleht</a></li>
+                <li><a href="#mvp">MVP</a></li>
+                <li><a href="#repo">Repo</a></li>
+                <li><a href="#vali">Validator</a></li>
+            </ul>
+        </nav>
     </header>
 
-
-    <section class="intro">
+    <section id="home" class="intro">
         <img src="profile.jpg" alt="Фото профиля" class="profile-img">
         <h2>Aleksandr Aleksejev</h2>
         <p>Eriala: Noorem tarkvaraarendaja</p>
     </section>
     
-
     <section class="skills">
         <h2>Minu oskused</h2>
         <ul>
             <li>Programmeerimiskeeled: PHP, JavaScript, Python, HTML, CSS, C#</li>
-
             <li>Õpitud IT-tehnoloogiad:
                 <ul>
                     <li>Agiilsed tarkvaraarenduse metoodikad</li>
@@ -37,11 +41,9 @@
                     <li>Andmebaasisüsteemide alused</li>
                 </ul>
             </li>
-    
             <li>Mida saab arvutis teha: veebirakenduste arendamine, andmebaaside loomine, serverite seadistamine, automatiseerimisskriptide kirjutamine</li>
         </ul>
     </section>
-
 
     <section class="projects">
         <h2>Parim projekt</h2>
@@ -53,26 +55,21 @@
         <p>Projekti link: <a href="https://aleksejev21.thkit.ee/wp3/" target="_blank">Minu WordPress</a></p>
     </section>
 
-    
-
-    <section class="mvp">
+    <section id="mvp" class="mvp">
         <h2>Mis on MVP?</h2>
         <p>MVP (minimaalne elujõuline toode) on minimaalselt elujõuline toode, mis sisaldab ainult kõige vajalikumaid funktsioone, et rahuldada varajaste kasutajate vajadusi ja saada tagasisidet.</p>
-        <p>MVP põhimõtte kasutamine võimaldab teil kiiresti hüpoteese testida ja saada kasutajate tagasisidet, et vältida tarbetuid kulutusi funktsionaalsuse arendamiseks, mida ei pruugi vaja minna. Oma IT-projektides kasutan seda lähenemist, et tõhusamalt ja säästlikumalt arendust alustada.</p>
     </section>
 
-    <section class="Repo">
+    <section id="repo" class="repo">
         <h2>Kuidas teha remote repo?</h2>
-        <p>git init loob praeguses kaustas uue hoidla ja git add README.md lisab faili registrisse (sissekandmise-eelne etapp).</p>
-        <p>git commit -m "first commit" teeb hoidlas tehtud muudatused sisse sõnumiga "first commit" ja git branch -M main nimetab põhiharu ümber maineks.</p>
-        <p>git remote add origin ... seob kohaliku hoidla GitHubi kaughoidlaga ja git push -u origin main lükkab muudatused kaughoidlasse ja seadistab põhiharu jälgimise</p>
+        <p>git init loob praeguses kaustas uue hoidla ja git add README.md lisab faili registrisse.</p>
     </section>
-    <section class="Vali">
-        <h2>HTML ja CSS Validator </h2>
-    <img src="html1.png" alt="HTML Validator" class="vali-img">
-    <img src="css1.png" alt="CSS Validator" class="vali-img">
-        </section>
-  
+
+    <section id="vali" class="vali">
+        <h2>HTML ja CSS Validator</h2>
+        <img src="html1.png" alt="HTML Validator" class="vali-img">
+        <img src="css1.png" alt="CSS Validator" class="vali-img">
+    </section>
 
     <footer>
         <p>&copy; 2025 Aleksejev Portfoolio. Kõik õigused kaitstud.</p>
@@ -80,4 +77,3 @@
 </div>
 </body>
 </html>
-
