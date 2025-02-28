@@ -92,15 +92,13 @@ nav ul {
             display: flex;
             gap: 15px;
         }
-        nav ul li {
-            display: inline;
-        }
-        nav ul li a {
-            text-decoration: none;
-            padding: 10px;
-            background: #0073e6;
-            color: white;
-            border-radius: 5px;
-
-            
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 10px;
+    background: #0073e6;
+    color: white;
+    border-radius: 5px;
         }
