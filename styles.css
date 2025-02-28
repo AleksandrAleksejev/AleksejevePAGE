@@ -98,7 +98,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     padding: 10px;
-    background: #0073e6;
-    color: white;
+    background: white;
+    color: black;
     border-radius: 5px;
         }
